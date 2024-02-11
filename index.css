@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width:33%;
+    border: 3px solid wheat;
+    border-radius: 50%;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+}
+
+.leftnav{
+    width:70%;
+    display:flex;
+    align-items: center;
+}
+
+.leftnav li{
+    list-style: none;
+    padding: 23px 30px;
+}
+
+.leftnav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.leftnav li a:hover{
+    color:antiquewhite;
+}
+
+.rightnav{
+    width:30%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#search{
+    border-radius: 9%;
+    border: 2px solid white;
+}
+
+.background{
+    background: rgba(0,0,0,0.7)url('heading_image.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 60vh;
+}
+
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    color: white;
+    text-align: justify;
+}
+
+.secondHalf{
+    img{
+        border-radius: 25%;
+        width:80%;
+        display:block;
+        margin:auto
+    }
+}
+
+/* Content starts */
+.heading{
+    justify-content: center;
+}
+.title{
+    background-color: orangered;
+    padding: 20px 10px;
+    text-align: center;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.boxname{
+    color: black;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.helper{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* ------------------------------------------------------ */
+.helperContainer{
+    padding: 1rem 15%;
+
+}
+
+.helperHeading{
+    background-color: orange;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    color: white;
+    
+}
+
+.helperBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
