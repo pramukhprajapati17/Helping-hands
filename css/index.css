@@ -47,8 +47,9 @@
 
 .rightnav{
     width:30%;
-    text-align: right;
+    align-items: right;
     padding-right: 50px;
+    display: flex;
 }
 
 #search{
