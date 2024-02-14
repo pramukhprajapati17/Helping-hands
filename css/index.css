@@ -201,8 +201,8 @@ body{
 
 /* footer part */
 
-footer{
-    display: flex;
+.footer{
+    justify-content: center;
 }
 
 .footer1{
@@ -216,6 +216,7 @@ footer{
 
 .footer1-left{
     width: 70%;
+    padding-left: 3%;
 }
 
 .footer1-right{
@@ -235,11 +236,38 @@ footer{
 
 .footer2{
     background-color: rgb(183, 121, 180);
+    display: flex;
+    justify-content: center;
+}
+
+.footer2-left{
+    width: 30%;
 }
 
 .content-logo{
+    ;
     img{
-        border-radius: 25%;
-        display:block;
+        border-radius: 50%;
+        height: 150px;
     }
 }
+
+
+.footer2-right{
+    width: 50%;
+    display: flex;
+}
+
+.f2-right{
+    display: flex;
+    color: solid black;
+    font-family: 'Courier New', Courier, monospace;
+    h3{
+        text-decoration: underline;
+        font-size: 25px;
+    }
+}
+
+
+
+
