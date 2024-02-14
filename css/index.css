@@ -13,7 +13,6 @@ body{
     color: white;
     font-family: "Helvetica Neue";
     justify-content: center;
-    height: ;
     display: flex;
     
 }
@@ -74,11 +73,11 @@ body{
 
 .btn-sml{
     margin-right: 10%;
+    border-radius:10%;
 }
 
 #search{
-    border-radius: 
-    border: 2px solid white;
+    border-radius:10%;
 }
 
 .login-btn{
@@ -245,7 +244,6 @@ body{
 }
 
 .content-logo{
-    ;
     img{
         border-radius: 50%;
         height: 150px;
