@@ -177,3 +177,23 @@
 
 /* footer part */
 
+footer{
+    display: flex;
+}
+
+.footer1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(116, 2, 111);
+    color: white;
+    width: 100%;
+    display: flex;
+
+}
+
+.footer1-left{
+    width: 50%;
+}
+
+.footer1-social{
+
+}
