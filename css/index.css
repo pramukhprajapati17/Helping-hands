@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(237, 203, 158);
+    width:100%;
 }
 
 .header{
@@ -16,7 +17,9 @@ body{
     display: flex;
     
 }
-
+marquee{
+    display:flex;
+}
 .header img{
     height: 60px;
     border-radius: 50%;
@@ -132,8 +135,13 @@ body{
 }
 
 /* Content starts */
+
+.section2{
+    width:100%;
+}
 .heading{
     justify-content: center;
+    margin-top: 5px;
 }
 .title{
     background-color: rgb(116, 2, 111);
@@ -160,6 +168,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width:100%;
 }
 
 .box{
@@ -174,28 +183,25 @@ body{
     margin-bottom: 5px;
 }
 
-/* ------------------------------------------------------ */
-.helperContainer{
-    padding: 1rem 15%;
+/* section 3 */
 
+.info{
+    display:flex;
 }
 
-.helperHeading{
-    background-color: orange;
-    text-align: center;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    padding: 1rem 0.5rem;
-    color: white;
-    
+.infoarea{
+    height: 70px;
+    background-color: aquamarine;
+    width:50%;
 }
 
-.helperBox {
-    display: flex;
-    flex-direction: column;
+.imgarea{
+    width:50%;
+    background-color: aquamarine;
     justify-content: center;
-    align-items: center;
 }
+
+
 
 
 /* footer part */
@@ -287,5 +293,11 @@ body{
 }
 
 
+/* media query */
 
+@media only screen and(max-width:930px) {
+    .flex{
+        flex-wrap: wrap;
+    }
+}
 
